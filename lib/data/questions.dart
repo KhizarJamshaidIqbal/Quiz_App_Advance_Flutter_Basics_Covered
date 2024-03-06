@@ -1,6 +1,6 @@
 import 'package:quiz_app/model/quiz_question.dart';
 
-List<QuizQuestion> quizQuestions = const [
+List<QuizQuestion> questions = const [
   QuizQuestion(
     "What is Flutter?",
     [
