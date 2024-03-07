@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quiz_app/data/questions.dart';
@@ -69,7 +71,15 @@ class _QuestionScreenState extends State<QuestionScreen> {
                 child: Row(
                   children: [
                     Text(
-                      '1)',
+                      ((currentQuestionIndex) + 1).toString(),
+                      textAlign: TextAlign.center,
+                      style: GoogleFonts.kodeMono(
+                        textStyle: const TextStyle(
+                            fontSize: 16.0, color: Colors.white),
+                      ),
+                    ),
+                    Text(
+                      ")",
                       textAlign: TextAlign.center,
                       style: GoogleFonts.kodeMono(
                         textStyle: const TextStyle(

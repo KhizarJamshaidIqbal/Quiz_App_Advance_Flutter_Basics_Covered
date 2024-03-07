@@ -9,10 +9,12 @@ List<QuizQuestion> questions = const [
       "An IDE",
       "A database"
     ],
+    1,
   ),
   QuizQuestion(
     "Which programming language is used to develop Flutter apps?",
     ["Dart", "Java", "Swift", "Kotlin"],
+    2,
   ),
   QuizQuestion(
     "What is the main advantage of Flutter?",
@@ -22,18 +24,22 @@ List<QuizQuestion> questions = const [
       "Complex UI support",
       "Strongly typed language"
     ],
+    3,
   ),
   QuizQuestion(
     "What is the name of the widget used to create a button in Flutter?",
     ["ElevatedButton", "FlatButton", "RaisedButton", "TextButton"],
+    4,
   ),
   QuizQuestion(
     "Which command is used to create a new Flutter project?",
     ["flutter create", "flutter start", "flutter new", "flutter init"],
+    5,
   ),
   QuizQuestion(
     "What is the name of the main function in a Flutter app?",
     ["main", "start", "run", "app"],
+    6,
   ),
   QuizQuestion(
     "How do you define a StatelessWidget in Flutter?",
@@ -43,6 +49,7 @@ List<QuizQuestion> questions = const [
       "function MyWidget() : StatelessWidget",
       "MyWidget extends StatelessWidget"
     ],
+    7,
   ),
   QuizQuestion(
     "What is the purpose of the MaterialApp widget in Flutter?",
@@ -52,10 +59,12 @@ List<QuizQuestion> questions = const [
       "To define the app's layout",
       "To define the app's navigation"
     ],
+    8,
   ),
   QuizQuestion(
     "Which command is used to run a Flutter app?",
     ["flutter run", "flutter start", "flutter build", "flutter test"],
+    9,
   ),
   QuizQuestion(
     "What is a widget in Flutter?",
@@ -65,10 +74,12 @@ List<QuizQuestion> questions = const [
       "A database",
       "A programming language"
     ],
+    10,
   ),
   QuizQuestion(
     "How do you add interactivity to a Flutter app?",
     ["Using setState()", "Using widgets", "Using Dart code", "Using plugins"],
+    11,
   ),
   QuizQuestion(
     "What is hot reload in Flutter?",
@@ -78,10 +89,12 @@ List<QuizQuestion> questions = const [
       "A debugging tool",
       "A performance optimization"
     ],
+    12,
   ),
   QuizQuestion(
     "Which widget is used to display a list of items in Flutter?",
     ["ListView", "GridView", "List", "Column"],
+    13,
   ),
   QuizQuestion(
     "What is the purpose of the initState method in a StatefulWidget?",
@@ -91,6 +104,7 @@ List<QuizQuestion> questions = const [
       "To define the app's layout",
       "To handle user interactions"
     ],
+    14,
   ),
   QuizQuestion(
     "What is the purpose of the dispose method in a StatefulWidget?",
@@ -100,10 +114,12 @@ List<QuizQuestion> questions = const [
       "To define the app's structure",
       "To handle user inputs"
     ],
+    15,
   ),
   QuizQuestion(
     "Which widget is used to create a row of items with a horizontal layout in Flutter?",
     ["Row", "Column", "ListView", "GridView"],
+    16,
   ),
   QuizQuestion(
     "What is the purpose of the crossAxisAlignment property in a Row widget?",
@@ -113,6 +129,7 @@ List<QuizQuestion> questions = const [
       "To control the spacing between children",
       "To set the size of children"
     ],
+    17,
   ),
   QuizQuestion(
     "What is the purpose of the mainAxisAlignment property in a Column widget?",
@@ -122,6 +139,7 @@ List<QuizQuestion> questions = const [
       "To control the spacing between children",
       "To set the size of children"
     ],
+    18,
   ),
   QuizQuestion(
     "How do you add padding to a widget in Flutter?",
@@ -131,9 +149,11 @@ List<QuizQuestion> questions = const [
       "Using the size property",
       "Using the space property"
     ],
+    19,
   ),
   QuizQuestion(
     "Which command is used to update Flutter SDK to the latest version?",
     ["flutter upgrade", "flutter update", "flutter install", "flutter version"],
+    20,
   ),
 ];
